@@ -29,9 +29,9 @@ function App() {
                 <a href="signin.html">Sign In</a>
             </div>
         </header>
-        <aside class="sidebar">
+        <aside className="sidebar">
         <h3>Shopping Categories</h3>
-        <button class="sidebar-close-button" onClick={closeMenu}>X</button>
+        <button className="sidebar-close-button" onClick={closeMenu}>X</button>
         <ul>
             <li>
                 <a href="index.html">Pants</a>
