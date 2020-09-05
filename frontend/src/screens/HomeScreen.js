@@ -12,7 +12,8 @@ function HomeScreen (props){
     
     useEffect(()=>{
         dispatch(listProducts());
-    },[ ]);
+        
+    },[]);
 
     return loading ? <div>Loading...</div> : error ? <div>{error}</div> :
     <ul className="products">

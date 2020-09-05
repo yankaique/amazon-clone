@@ -181,6 +181,11 @@ a:hover{
 
 .info-first-list{
   margin-right:100px;
+  list-style-type: none;
+}
+
+.info-first-list li{
+  margin-top:1rem;
 }
 
 .details-info ul,
