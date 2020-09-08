@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --watch backend --exec babel-node backend/server.js",
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/yankaique/amazon-clone#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
